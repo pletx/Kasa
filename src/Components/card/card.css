@@ -1,0 +1,24 @@
+.card{
+position: relative;
+display: flex;
+background: linear-gradient(180deg, rgba(255, 96, 96, 1),rgb(121, 44, 44));
+border-radius: 10px;
+margin: 15px;
+height: 340px;
+object-fit: contain;
+}
+.cardtext{
+    position: absolute;
+    align-items: center;
+    color: white;
+    height: fit-content;
+    bottom: 0;
+    width: 33%;
+    margin: 20px;
+    
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
