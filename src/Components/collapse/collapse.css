@@ -1,0 +1,32 @@
+.collapse{
+margin: 30px;
+font-size: 24px;  
+}
+.collapse p{
+    margin: 0;
+}
+.collapse-header{
+    position: relative;
+    display: flex;
+    background-color: #FF6060;
+    padding: 13px;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-left: auto;  
+}
+.collapse img{
+    position: relative;
+    right: 0;
+    width: 24px;
+    height: 15px;
+    align-self: center;
+}
+.title{
+    position: relative;
+    color: white;
+}
+.collapsetxt{
+    background-color: rgba(246, 246, 246, 1);
+    color: rgba(255, 96, 96, 1);
+    padding: 20px;
+}

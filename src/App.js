@@ -1,23 +1,27 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Pages/Home';
-import FicheLogement from './Pages/FicheLogement';
-import NotFound from './Pages/NotFound';
-import Header from '../src/Components/header';
-import logo from"../src/Pages/LOGO.png"
-import Footer from './Pages/footer';
+import Home from './Pages/Home/Home';
+import FicheLogement from './Pages/Fichelogement/FicheLogement';
+import NotFound from './Pages/NotFound/NotFound';
+import Header from './Components/header/header';
+import logo from'./Assets/LOGO.png'
+import Footer from './Components/footer/footer';
+import APropos from './Pages/Apropos/APropos';
+import foterimg from './Assets/LOGOfooter.png'
+
 function App() {
   return (
     
     <BrowserRouter>
-     <Header logoSrc={logo}/>
+     <Header logoSrc={logo} logolink='/'/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/Apropos' element={<aPropos />} />
-        <Route path="/Fichelogement" element={<FicheLogement />} />
+        <Route path="/Apropos" element={<APropos />} />
+        <Route path="/Fichelogement/:id" element={<FicheLogement />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer logoSrc={logo}/>
+      <Footer logoSrc={foterimg}/>
     </BrowserRouter>
+    
     
   );
 }

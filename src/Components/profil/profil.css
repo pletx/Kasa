@@ -1,0 +1,14 @@
+
+.hostpicture img{
+    width: 100%;
+    width: 66px;
+    height: 66px;
+    border-radius: 2em;
+    margin-left: 10px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+
+}
