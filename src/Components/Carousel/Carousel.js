@@ -17,7 +17,6 @@ if(images.length==1){
   return (
    
      <div className="carousel">
-      <div>{Image}/{images.length}</div>
      <img className="carousel-image" src={images[Image]} />
    </div>);
 }
