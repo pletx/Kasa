@@ -5,8 +5,18 @@ background: linear-gradient(180deg, rgba(255, 96, 96, 1),rgb(121, 44, 44));
 border-radius: 10px;
 margin: 15px;
 height: 340px;
-object-fit: contain;
+object-fit: cover;
 }
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+    z-index: 0;
+  }
 .cardtext{
     position: absolute;
     align-items: center;

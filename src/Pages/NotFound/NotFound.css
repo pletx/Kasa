@@ -1,7 +1,7 @@
 h2{color: rgba(255, 96, 96, 1);
     height: 263px;
     font-size: 288px;
-    margin: 0;
+    margin: 100px 0 40px 0px ;
     align-self: center;
     }
 .pagetxt{
@@ -11,7 +11,6 @@ h2{color: rgba(255, 96, 96, 1);
 .pagetxt p{
     font-size: 36px;
     color: rgba(255, 96, 96, 1);
-    
     margin-bottom: 182px;
     margin-top: 66px;
     align-self: center;
@@ -29,3 +28,22 @@ h2{color: rgba(255, 96, 96, 1);
 .pagetxt a:hover{
     text-decoration: aliceblue;
 }
+@media (max-width: 768px) {
+    h2{
+        height: fit-content;
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 137px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 0;
+        }
+
+.pagetxt p{
+ margin: 0 59px 113px 59px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+font-size: 18px;
+}}
