@@ -13,6 +13,7 @@ import starempty from'../../Assets/starempty.png'
 function FicheLogement() {
   var {id} = useParams();
   const info = data.find(info => info.id === id);
+  
   if (!info) {
     return(
       <Routes>
@@ -34,16 +35,12 @@ function FicheLogement() {
   return (
     <div id='page'>
       <Carousel images={info.pictures} arrowleft={Arrowleft} arrowright={Arrowright}/>
-
-     
     <div className='info'>
- 
       <div className='info-contener'>
       <h2>{info.title} </h2>
       <p>{info.location} </p>
       <div className='tickets'>{ticket}</div>
       </div>
-
       <div className='info-rating'>
       <Profil hostpicture={info.host.picture} hostname={info.host.name} />
       <div className="rating">{stars}</div>
@@ -51,7 +48,7 @@ function FicheLogement() {
     </div>  
       <div className='collapse-contener'>
       <Collapse title='Description'children={info.description} />
-      <Collapse title='Équipements'>
+  <Collapse title='Équipements'>
       {info.equipments.map((item, index) => (
   <p key={index}>{item}</p>
 ))}

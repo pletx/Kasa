@@ -10,7 +10,6 @@ import foterimg from './Assets/LOGOfooter.png'
 
 function App() {
   return (
-    
     <BrowserRouter>
      <Header logoSrc={logo} logolink='/'/>
       <Routes>
@@ -21,9 +20,6 @@ function App() {
       </Routes>
       <Footer logoSrc={foterimg}/>
     </BrowserRouter>
-    
-    
   );
 }
-
 export default App;

@@ -6,33 +6,42 @@
     margin-right: 20px;
 
 }
+.info-contener{
+    width: 66%;
+}
 .info-contener,.info-rating{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    width:fit-content;
+  
     flex-direction: column;
 }
-
+.rating{
+    margin-top: 25px;
+}
 .title-contener{
     position: relative;
     right: 0;
     display: flex;
+   
 }
 .collapse-contener{
     display: flex;
     flex-direction: row;
     justify-content: center;
+   
 }
 .collapse{
     width: 50%;
     margin-left: 20px;
     margin-right: 20px;
+    
 }
 #page h2{font-size: 36px;
 height: fit-content;
 color: #FF6060;
 width: 100%;
+margin: 0;
+height: fit-content;
 }
 #page p{
     color: #FF6060;
@@ -72,6 +81,13 @@ width: 100%;
 #page{
     margin: 0;
     padding: 0;
+}
+#page h2{
+    font-size: 18px;
+    margin: 0;
+    height: fit-content;
+    text-align: left;
+   line-height: 0;
 }
 
     .info-contener{
