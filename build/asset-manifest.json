@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f8d46ffd.css",
+    "main.js": "/static/js/main.bc246f06.js",
+    "static/media/Apropsimg.png": "/static/media/Apropsimg.dc7a08e1faa2e14de0bd.png",
+    "static/media/IMG.png": "/static/media/IMG.1168be13650bb18b456e.png",
+    "index.html": "/index.html",
+    "main.f8d46ffd.css.map": "/static/css/main.f8d46ffd.css.map",
+    "main.bc246f06.js.map": "/static/js/main.bc246f06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8d46ffd.css",
+    "static/js/main.bc246f06.js"
+  ]
+}
